@@ -51,7 +51,7 @@ function endGame(draw) {
   if (draw) {
     winningMessageTextElement.innerText = 'Draw!'
   } else {
-    winningMessageTextElement.innerText = `${circleTurn ? "Half" : "Full"} Wins!`
+    winningMessageTextElement.innerText = `${circleTurn ? "BlueSpeed" : "RedSpeed"} Wins!`
   }
   winningMessageElement.classList.add('show')
 }
